@@ -1,0 +1,45 @@
+
+{
+  "name": "react-native-datausagecheck",
+  "title": "React Native Android Datausagecheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-datausagecheck.git",
+    "baseUrl": "https://github.com/github_account/react-native-datausagecheck"
+  },
+  "homepage": "https://github.com/rf1804/react-native-datausagecheck#readme",
+  "bugs": {
+    "url": "https://github.com/rf1804/react-native-datausagecheck/issues"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "data",
+    "datausage",
+    "NetworkStatsManager",
+    "NetworkStats",
+    "Android"
+  ],
+  "author": {
+    "name": "Mohamad Arif Raja",
+    "email": "rfraja2943@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.1"
+  },
+  "devDependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.1"
+  }
+}
