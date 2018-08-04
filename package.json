@@ -2,7 +2,7 @@
 {
   "name": "react-native-datausagecheck",
   "title": "React Native Android today's current data usage in Bytes",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
