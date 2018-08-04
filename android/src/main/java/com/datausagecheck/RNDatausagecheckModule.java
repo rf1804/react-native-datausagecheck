@@ -115,7 +115,7 @@ public class RNDatausagecheckModule extends ReactContextBaseJavaModule {
                 try {
                     NetworkStats.Bucket dataUsage = networkStatsManager.querySummaryForDevice(ConnectivityManager.TYPE_MOBILE,subscriberId,startTime, endTime);
                     long datausageInNumber= dataUsage.getRxBytes()+dataUsage.getTxBytes();
-                    callback.invoke("data"+datausageInNumber);
+                    callback.invoke(""+datausageInNumber);
                 } catch (RemoteException e) {
                     e.printStackTrace();
                 }

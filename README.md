@@ -5,6 +5,9 @@
 
 `$ npm install react-native-datausagecheck --save`
 
+  <center>OR</center>
+
+`$ yarn add react-native-datausagecheck`
 ### Mostly automatic installation
 
 `$ react-native link react-native-datausagecheck`
@@ -33,6 +36,7 @@
 import RNDatausagecheck from 'react-native-datausagecheck';
 
 // TODO: What to do with the module?
-RNDatausagecheck;
+RNDatausagecheck.currentTodayDataUsage((msg) => {
+  console.log(Number(msg))
+});
 ```
-  
